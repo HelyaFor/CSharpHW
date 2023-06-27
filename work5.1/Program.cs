@@ -13,12 +13,13 @@ for (int i = 0; i < array.Length; i++)
 }
 
 int num = 0;
+int amount = 0;
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i] % 2 == 0)
         {
          num = array [i]; 
-         Console.WriteLine($"Чётные числа в указанном массиве: {num}");
+         amount = amount + 1;
         }
 }
-
+Console.WriteLine($"Количество чётных чисел в указанном массиве: {amount}");
