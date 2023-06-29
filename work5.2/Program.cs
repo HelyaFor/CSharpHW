@@ -14,8 +14,9 @@ for (int i = 0; i < array.Length; i++)
 int sum = 0;
 
 for (int i = 0; i < array.Length; i++)
-  if (i % 2 != 0)
-  {
-    sum = sum + array[i];
+  {if (i % 2 != 0)
+    {
+      sum = sum + array[i];
+    }
   }
 Console.WriteLine($"Cумма нечётных элментов: {sum}");
