@@ -10,8 +10,8 @@ m = 3, n = 4.
         int rows = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Введите количество столбцов: ");
-        int colmns = Convert.ToInt32(Console.ReadLine());
-        double[,] array = new double[rows, colmns];
+        int columns = Convert.ToInt32(Console.ReadLine());
+        double[,] array = new double[rows, columns];
 
         for (int i = 0; i < array.GetLength(0); i++)
         {
