@@ -3,11 +3,11 @@
 [3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
 */
 
-double[] array = new double[5];
+double[] array = new double[5] {3.22, 4.2, 1.15, 77.15, 65.2};
 
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = Math.Round(new Random().NextDouble() * new Random().Next(0, 5), 2);array[i] = Math.Round(new Random().NextDouble() * new Random().Next(0, 10), 2);
+    //array[i] = Math.Round(new Random().NextDouble() * new Random().Next(0, 5), 2);array[i] = Math.Round(new Random().NextDouble() * new Random().Next(0, 10), 2);
     Console.WriteLine(array[i] + " ");
 }
 

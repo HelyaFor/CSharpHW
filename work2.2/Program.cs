@@ -7,8 +7,9 @@
 
 Console.WriteLine("Пожалуйста, введите число");
 int number = int.Parse (Console.ReadLine ());
-if (number > 99)
+if (number > 999)
 {
+    number = 
     Console.WriteLine("Третья цифра числа: "+ number);
 }
 else
